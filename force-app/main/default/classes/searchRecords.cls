@@ -4,7 +4,7 @@ public with sharing class searchRecords {
             FIND 'John' IN ALL FIELDS
             RETURNING
             Consultant__c(Id, Name),
-            HR_Contact__c(Id, Name)
+            Contact(Id, Name)
         ];
 
         for (List<SObject> records : searchResults) {
