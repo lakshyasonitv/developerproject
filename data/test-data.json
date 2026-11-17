@@ -1,0 +1,252 @@
+{
+  "employers": [
+    {
+      "key": "TV",
+      "name": "TV",
+      "domain": "IT",
+      "hrContact": {
+        "firstName": "Ravi",
+        "lastName": "Kumar",
+        "email": "ravi.kumar@tv.example.com"
+      }
+    },
+    {
+      "key": "MediCare Plus",
+      "name": "MediCare Plus",
+      "domain": "Healthcare",
+      "hrContact": {
+        "firstName": "Neha",
+        "lastName": "Sharma",
+        "email": "neha.sharma@medicareplus.example.com"
+      }
+    },
+    {
+      "key": "EduCore",
+      "name": "EduCore",
+      "domain": "Education",
+      "hrContact": {
+        "firstName": "Arjun",
+        "lastName": "Singh",
+        "email": "arjun.singh@educore.example.com"
+      }
+    },
+    {
+      "key": "FinTrust",
+      "name": "FinTrust",
+      "domain": "Finance",
+      "hrContact": {
+        "firstName": "Priya",
+        "lastName": "Mehta",
+        "email": "priya.mehta@fintrust.example.com"
+      }
+    }
+  ],
+  "consultants": [
+    {
+      "key": "john.smith@example.com",
+      "firstName": "John",
+      "lastName": "Smith",
+      "dob": "1990-05-14",
+      "gender": "Male",
+      "email": "john.smith@example.com",
+      "married": true,
+      "education": "BTech"
+    },
+    {
+      "key": "alice.sharma@example.com",
+      "firstName": "Alice",
+      "lastName": "Sharma",
+      "dob": "1995-08-22",
+      "gender": "Female",
+      "email": "alice.sharma@example.com",
+      "married": false,
+      "education": "MCA"
+    },
+    {
+      "key": "bob.singh@example.com",
+      "firstName": "Bob",
+      "lastName": "Singh",
+      "dob": "1988-11-02",
+      "gender": "Male",
+      "email": "bob.singh@example.com",
+      "married": true,
+      "education": "BE"
+    },
+    {
+      "key": "carol.johnson@example.com",
+      "firstName": "Carol",
+      "lastName": "Johnson",
+      "dob": "1992-03-17",
+      "gender": "Female",
+      "email": "carol.johnson@example.com",
+      "married": false,
+      "education": "MTech"
+    },
+    {
+      "key": "david.williams@example.com",
+      "firstName": "David",
+      "lastName": "Williams",
+      "dob": "1985-07-09",
+      "gender": "Male",
+      "email": "david.williams@example.com",
+      "married": true,
+      "education": "BTech"
+    },
+    {
+      "key": "emma.brown@example.com",
+      "firstName": "Emma",
+      "lastName": "Brown",
+      "dob": "1998-01-30",
+      "gender": "Female",
+      "email": "emma.brown@example.com",
+      "married": false,
+      "education": "MCA"
+    },
+    {
+      "key": "frank.davis@example.com",
+      "firstName": "Frank",
+      "lastName": "Davis",
+      "dob": "1999-09-12",
+      "gender": "Male",
+      "email": "frank.davis@example.com",
+      "married": false,
+      "education": "BE"
+    },
+    {
+      "key": "grace.wilson@example.com",
+      "firstName": "Grace",
+      "lastName": "Wilson",
+      "dob": "1993-12-05",
+      "gender": "Female",
+      "email": "grace.wilson@example.com",
+      "married": false,
+      "education": "MTech"
+    },
+    {
+      "key": "henry.taylor@example.com",
+      "firstName": "Henry",
+      "lastName": "Taylor",
+      "dob": "1991-06-25",
+      "gender": "Male",
+      "email": "henry.taylor@example.com",
+      "married": true,
+      "education": "BTech"
+    },
+    {
+      "key": "irene.moore@example.com",
+      "firstName": "Irene",
+      "lastName": "Moore",
+      "dob": "1996-04-18",
+      "gender": "Female",
+      "email": "irene.moore@example.com",
+      "married": false,
+      "education": "MCA"
+    }
+  ],
+  "positions": [
+    {
+      "key": "Software Engineer",
+      "name": "Software Engineer",
+      "employer": "TV",
+      "openings": 3,
+      "status": "Open",
+      "hourlyRate": 45.00,
+      "description": "Design, build and maintain the TalentBridge platform."
+    },
+    {
+      "key": "Data Analyst",
+      "name": "Data Analyst",
+      "employer": "TV",
+      "openings": 2,
+      "status": "Open",
+      "hourlyRate": 35.00,
+      "description": "Analyse hiring and placement data for the IT team."
+    },
+    {
+      "key": "Registered Nurse",
+      "name": "Registered Nurse",
+      "employer": "MediCare Plus",
+      "openings": 4,
+      "status": "Open",
+      "hourlyRate": 40.00,
+      "description": "Provide direct patient care in the MediCare Plus network."
+    },
+    {
+      "key": "Care Coordinator",
+      "name": "Care Coordinator",
+      "employer": "MediCare Plus",
+      "openings": 1,
+      "status": "Filled",
+      "hourlyRate": 25.00,
+      "description": "Coordinate care plans for patients across facilities."
+    },
+    {
+      "key": "Math Teacher",
+      "name": "Math Teacher",
+      "employer": "EduCore",
+      "openings": 2,
+      "status": "Open",
+      "hourlyRate": 30.00,
+      "description": "Teach mathematics to secondary school students."
+    },
+    {
+      "key": "Financial Analyst",
+      "name": "Financial Analyst",
+      "employer": "FinTrust",
+      "openings": 1,
+      "status": "Closed",
+      "hourlyRate": 38.00,
+      "description": "Support budgeting and financial planning for FinTrust."
+    }
+  ],
+  "hirings": [
+    {
+      "employer": "TV",
+      "consultant": "john.smith@example.com",
+      "position": "Software Engineer",
+      "hireDate": "2025-01-15"
+    },
+    {
+      "employer": "TV",
+      "consultant": "alice.sharma@example.com",
+      "position": "Data Analyst",
+      "hireDate": "2025-03-20"
+    },
+    {
+      "employer": "TV",
+      "consultant": "bob.singh@example.com",
+      "position": "Software Engineer",
+      "hireDate": "2026-09-01"
+    },
+    {
+      "employer": "MediCare Plus",
+      "consultant": "carol.johnson@example.com",
+      "position": "Registered Nurse",
+      "hireDate": "2025-07-01"
+    },
+    {
+      "employer": "MediCare Plus",
+      "consultant": "david.williams@example.com",
+      "position": "Care Coordinator",
+      "hireDate": "2026-10-01"
+    },
+    {
+      "employer": "EduCore",
+      "consultant": "emma.brown@example.com",
+      "position": "Math Teacher",
+      "hireDate": "2025-05-10"
+    },
+    {
+      "employer": "EduCore",
+      "consultant": "frank.davis@example.com",
+      "position": null,
+      "hireDate": "2026-09-15"
+    },
+    {
+      "employer": "FinTrust",
+      "consultant": "grace.wilson@example.com",
+      "position": "Financial Analyst",
+      "hireDate": "2026-10-20"
+    }
+  ]
+}

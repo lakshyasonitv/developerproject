@@ -2,10 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Domain__c</fullName>
     <description>Industry domain for this employer. Restricted to the four supported TalentBridge domains.</description>
-    <externalId>false</externalId>
     <label>Domain</label>
     <required>false</required>
-    <trackTrending>false</trackTrending>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
