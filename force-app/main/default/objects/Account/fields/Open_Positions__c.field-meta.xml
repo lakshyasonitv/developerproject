@@ -3,7 +3,6 @@
     <fullName>Open_Positions__c</fullName>
     <description>Roll-up of the openings on this employer&apos;s positions that have a Status of Open.</description>
     <label>Open Positions</label>
-    <summarizedField>Position__c.Openings__c</summarizedField>
     <summaryFilterItems>
         <field>Position__c.Status__c</field>
         <operation>equals</operation>
@@ -11,5 +10,6 @@
     </summaryFilterItems>
     <summaryForeignKey>Position__c.Employer__c</summaryForeignKey>
     <summaryOperation>sum</summaryOperation>
+    <summarizedField>Position__c.Openings__c</summarizedField>
     <type>Summary</type>
 </CustomField>
